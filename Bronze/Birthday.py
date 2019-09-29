@@ -27,14 +27,11 @@ def birthday(s, d, m):
             while k < mfork:
                 temp_list.append(s[k])
                 temp = temp + s[k]
-                k+=1
-            print(temp_list)
-            print(temp)      
+                k+=1      
             if temp == d:
                 new_list.append(temp_list)
             i+=1
             mfork+=1
-        print(new_list)
         return len(new_list)        
 
 s = [2,5,1,3,4,4,3,5,1,1,2,1,4,1,3,3,4,2,1]
